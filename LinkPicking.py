@@ -2,7 +2,7 @@
 """
 Created on Tue Sep 17 12:47:52 2019
 
-@author: sabv2e15338
+@author: sabrin sulthana
 """
 
 from selenium import webdriver
@@ -13,7 +13,7 @@ from datetime import date
 import os
 import xlsxwriter
 
-driver = webdriver.Chrome(executable_path='C:/Users/sabv2e15338.VEE2OFFICE/Desktop/E-paper Python/chromedriver.exe')
+driver = webdriver.Chrome(executable_path='path')
 driver.get('https://www.google.com/')
 driver.maximize_window()
 time.sleep(2)
